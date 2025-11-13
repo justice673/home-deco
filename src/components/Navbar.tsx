@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -19,6 +20,13 @@ const Navbar = () => {
       <nav className="relative flex items-center justify-between w-[92vw] max-w-5xl bg-white/80 backdrop-blur-md shadow-lg px-6 sm:px-8 py-4 rounded-2xl pointer-events-auto border border-white/40">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/images/home.png"
+            alt="HomeDeco Logo"
+            width={40}
+            height={40}
+            className="object-contain"
+          />
           <span className="text-2xl font-bold text-gray-800 font-caveat hover:text-[#a47c5c] transition-colors cursor-pointer">HomeDeco</span>
         </Link>
 
@@ -43,7 +51,7 @@ const Navbar = () => {
             href="/contact"
             className="hidden sm:inline-flex bg-[#A67C52] text-white px-5 py-2 rounded-lg font-semibold shadow hover:bg-[#8B6642] transition-colors"
           >
-            Shop Now
+            Contact Us
           </Link>
 
           <button
@@ -95,7 +103,7 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
                 className="w-full inline-flex justify-center bg-[#A67C52] text-white px-5 py-3 rounded-xl font-semibold shadow hover:bg-[#8B6642] transition-colors"
               >
-                Shop Now
+                Contact Us
               </Link>
             </div>
           </div>

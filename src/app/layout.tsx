@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "HomeDeco - Interior Design Solutions",
   description: "Modern interior design solutions for your home and office",
+  icons: {
+    icon: "/images/home.png",
+    shortcut: "/images/home.png",
+    apple: "/images/home.png",
+  },
 };
 
 export default function RootLayout({
@@ -14,6 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/images/home.png" type="image/png" />
+        <link rel="shortcut icon" href="/images/home.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/home.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
