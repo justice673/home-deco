@@ -18,9 +18,9 @@ const Navbar = () => {
     <header className="absolute top-0 left-0 w-full flex justify-center pt-6 sm:pt-8 pb-2 pointer-events-none z-20">
       <nav className="relative flex items-center justify-between w-[92vw] max-w-5xl bg-white/80 backdrop-blur-md shadow-lg px-6 sm:px-8 py-4 rounded-2xl pointer-events-auto border border-white/40">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-gray-800 font-caveat">HomeDeco</span>
-        </div>
+        <Link href="/" className="flex items-center gap-2">
+          <span className="text-2xl font-bold text-gray-800 font-caveat hover:text-[#a47c5c] transition-colors cursor-pointer">HomeDeco</span>
+        </Link>
 
         {/* Desktop Links */}
         <div className="flex-1 hidden md:flex justify-center">
