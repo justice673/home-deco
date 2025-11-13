@@ -9,7 +9,6 @@ const navLinks = [
   { href: '/about', label: 'About Us' },
   { href: '/projects', label: 'Projects' },
   { href: '/blogs', label: 'Blogs' },
-  { href: '/contact', label: 'Contact' },
 ];
 
 const Navbar = () => {
@@ -41,7 +40,7 @@ const Navbar = () => {
         {/* CTA + Mobile Toggle */}
         <div className="flex items-center gap-4">
           <Link
-            href="/shop"
+            href="/contact"
             className="hidden sm:inline-flex bg-[#A67C52] text-white px-5 py-2 rounded-lg font-semibold shadow hover:bg-[#8B6642] transition-colors"
           >
             Shop Now
@@ -92,7 +91,7 @@ const Navbar = () => {
             </div>
             <div className="px-4 pb-4">
               <Link
-                href="/shop"
+                href="/contact"
                 onClick={() => setIsMenuOpen(false)}
                 className="w-full inline-flex justify-center bg-[#A67C52] text-white px-5 py-3 rounded-xl font-semibold shadow hover:bg-[#8B6642] transition-colors"
               >
