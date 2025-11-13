@@ -168,10 +168,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <a
-                      href="mailto:hello@homedeco.com"
+                      href="mailto:fongejustice981@gmail.com"
                       className="text-gray-600 hover:text-[#a47c5c] transition-colors"
                     >
-                      hello@homedeco.com
+                      fongejustice981@gmail.com
                     </a>
                   </div>
                 </div>
@@ -195,10 +195,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <a
-                      href="tel:+911234567890"
+                      href="tel:+237673746133"
                       className="text-gray-600 hover:text-[#a47c5c] transition-colors"
                     >
-                      +91 12345 67890
+                      +237 673746133
                     </a>
                   </div>
                 </div>
@@ -228,9 +228,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      123 Design Street<br />
-                      Mumbai, Maharashtra 400001<br />
-                      India
+                      Akwa<br />
+                      Douala<br />
+                      Cameroon
                     </p>
                   </div>
                 </div>

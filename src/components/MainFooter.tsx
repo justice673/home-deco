@@ -13,7 +13,7 @@ const MainFooter = () => {
               Featured design user interface every story. Space them convert to components that elevate everyday living.
             </p>
             <div className="flex gap-3">
-              <span className="text-sm text-gray-500">hello@homedeco.com</span>
+              <a href="mailto:fongejustice981@gmail.com" className="text-sm text-gray-500 hover:text-[#a47c5c] transition-colors">fongejustice981@gmail.com</a>
             </div>
           </div>
 
