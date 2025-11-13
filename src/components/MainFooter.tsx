@@ -17,15 +17,16 @@ const MainFooter = () => {
             </div>
           </div>
 
-          {/* Company Links */}
+          {/* Quick Links */}
           <div className="space-y-5">
-            <h3 className="font-semibold text-gray-900 text-base">Company</h3>
+            <h3 className="font-semibold text-gray-900 text-base">Quick Links</h3>
             <ul className="space-y-3 text-sm sm:text-base">
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">About</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">How We Work</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Case Studies</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Careers</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</Link></li>
+              <li><Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">Home</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors">Services</Link></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">About Us</Link></li>
+              <li><Link href="/projects" className="text-gray-600 hover:text-gray-900 transition-colors">Projects</Link></li>
+              <li><Link href="/blogs" className="text-gray-600 hover:text-gray-900 transition-colors">Blogs</Link></li>
+              <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -33,9 +34,9 @@ const MainFooter = () => {
           <div className="space-y-5">
             <h3 className="font-semibold text-gray-900 text-base">Services</h3>
             <ul className="space-y-3 text-sm sm:text-base">
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">AI Creation And Integration</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Full-stack Applications</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Cloud & DevOps</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors">Residential Interiors</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors">Commercial Spaces</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors">Styling Consultant</Link></li>
             </ul>
           </div>
 
@@ -43,8 +44,8 @@ const MainFooter = () => {
           <div className="space-y-5">
             <h3 className="font-semibold text-gray-900 text-base">Resources</h3>
             <ul className="space-y-3 text-sm sm:text-base">
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Products Training Board</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Projects</Link></li>
+              <li><Link href="/projects" className="text-gray-600 hover:text-gray-900 transition-colors">Our Projects</Link></li>
+              <li><Link href="/blogs" className="text-gray-600 hover:text-gray-900 transition-colors">Design Blog</Link></li>
             </ul>
             {/* Social Icons */}
             <div className="flex gap-3 sm:gap-4 mt-6">
